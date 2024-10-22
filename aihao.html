@@ -51,6 +51,14 @@
         .hobby-description {
             flex-grow: 1;
         }
+        #background-image {
+            position: fixed; /* Fix the image to the viewport */
+            bottom: 0; /* Position it at the bottom */
+            left: 0; /* Position it at the left */
+            width: 100%; /* Make it full width */
+            height: 100%; /* Make it full height */
+            z-index: -1; /* Put it in the background layer */
+        }
     </style>
 </head>
 <body>
@@ -90,5 +98,6 @@
         </section>
     </main>
     <a href="index.html"><button>返回主页</button>
+        <img src="180cc2b649074771dff9b52d13c0c25.jpg" alt="180cc2b649074771dff9b52d13c0c25" id="background-image">
 </body>
 </html>
